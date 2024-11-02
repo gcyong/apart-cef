@@ -135,7 +135,8 @@
       <AdditionalDependencies>libcef.lib;cef_sandbox.lib;libcef_dll_wrapper.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /y /c /e /f $(SolutionDir)thirdparty\cef\amd64_res_common\ $(OutDir)
+      <Command>type $(SolutionDir)thirdparty\cef\version.txt
+xcopy /y /c /e /f $(SolutionDir)thirdparty\cef\amd64_res_common\ $(OutDir)
 xcopy /y /c /e /f $(SolutionDir)thirdparty\cef\amd64_res_$(Configuration)\ $(OutDir)</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
@@ -160,7 +161,8 @@ xcopy /y /c /e /f $(SolutionDir)thirdparty\cef\amd64_res_$(Configuration)\ $(Out
       <AdditionalDependencies>libcef.lib;cef_sandbox.lib;libcef_dll_wrapper.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>xcopy /y /c /e /f $(SolutionDir)thirdparty\cef\amd64_res_common\ $(OutDir)
+      <Command>type $(SolutionDir)thirdparty\cef\version.txt
+xcopy /y /c /e /f $(SolutionDir)thirdparty\cef\amd64_res_common\ $(OutDir)
 xcopy /y /c /e /f $(SolutionDir)thirdparty\cef\amd64_res_$(Configuration)\ $(OutDir)</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
