@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cef-simple", "cef-simple\cef-simple.vcxproj", "{ABC3BFFD-FE40-4B8E-A203-2625A8EBB207}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "agent", "agent\agent.vcxproj", "{71CBBDC6-5DCB-4556-9963-DD035A420204}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -15,6 +17,10 @@ Global
 		{ABC3BFFD-FE40-4B8E-A203-2625A8EBB207}.Debug|x64.Build.0 = Debug|x64
 		{ABC3BFFD-FE40-4B8E-A203-2625A8EBB207}.Release|x64.ActiveCfg = Release|x64
 		{ABC3BFFD-FE40-4B8E-A203-2625A8EBB207}.Release|x64.Build.0 = Release|x64
+		{71CBBDC6-5DCB-4556-9963-DD035A420204}.Debug|x64.ActiveCfg = Debug|x64
+		{71CBBDC6-5DCB-4556-9963-DD035A420204}.Debug|x64.Build.0 = Debug|x64
+		{71CBBDC6-5DCB-4556-9963-DD035A420204}.Release|x64.ActiveCfg = Release|x64
+		{71CBBDC6-5DCB-4556-9963-DD035A420204}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
